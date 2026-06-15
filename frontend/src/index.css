@@ -1,12 +1,12 @@
 :root {
-  --bg-color: #080b11;
-  --panel-bg: rgba(15, 23, 42, 0.65);
-  --border-color: rgba(255, 255, 255, 0.08);
-  --primary: #6366f1;
-  --primary-hover: #4f46e5;
-  --secondary: #ec4899;
-  --text-main: #f8fafc;
-  --text-muted: #94a3b8;
+  --bg-color: #040406;
+  --panel-bg: rgba(18, 18, 24, 0.85);
+  --border-color: rgba(245, 158, 11, 0.15);
+  --primary: #f59e0b;
+  --primary-hover: #d97706;
+  --secondary: #f97316;
+  --text-main: #fcfcfd;
+  --text-muted: #a1a1aa;
   --error-color: #ef4444;
   --success-color: #10b981;
 }
@@ -20,8 +20,8 @@
 body {
   background-color: var(--bg-color);
   background-image: 
-    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.15) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.1) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(249, 115, 22, 0.1) 0px, transparent 50%);
   color: var(--text-main);
   font-family: 'Outfit', 'Inter', sans-serif;
   min-height: 100vh;
@@ -236,8 +236,8 @@ body {
   left: 0;
   background-color: var(--bg-color);
   background-image: 
-    radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.12) 0px, transparent 50%),
-    radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.12) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(249, 115, 22, 0.08) 0px, transparent 50%);
 }
 
 .sidebar {
@@ -300,9 +300,9 @@ body {
 }
 
 .nav-item.active {
-  color: #ffffff;
+  color: #000000;
   background: var(--primary);
-  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
 }
 
 .sidebar-footer {
@@ -357,6 +357,19 @@ body {
   font-size: 0.95rem;
 }
 
+.avatar {
+  width: 44px;
+  height: 44px;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #000000;
+}
+
 .user-profile-widget {
   display: flex;
   align-items: center;
@@ -396,7 +409,7 @@ body {
 }
 
 .card-gradient {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(236, 72, 153, 0.05) 100%) !important;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(249, 115, 22, 0.04) 100%) !important;
 }
 
 .content-section {
