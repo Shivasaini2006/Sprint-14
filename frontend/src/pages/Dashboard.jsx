@@ -89,7 +89,6 @@ function Dashboard() {
                 <p><strong>Database Status:</strong> <span style={{ color: 'var(--success-color)', fontWeight: '600' }}>● Connected (Atlas)</span></p>
                 <p><strong>Security Protocols:</strong> <span style={{ color: 'var(--primary)', fontWeight: '600' }}>High (JWT Enforced)</span></p>
                 <p><strong>Registered Email:</strong> <span style={{ color: 'var(--text-muted)' }}>{user?.email}</span></p>
-                <p><strong>Database ID:</strong> <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>{user?._id}</span></p>
               </div>
             </div>
 
@@ -156,10 +155,6 @@ function Dashboard() {
               <div style={{ display: 'flex', borderBottom: '1px solid var(--border-color)', paddingBottom: '10px' }}>
                 <span style={{ width: '150px', color: 'var(--text-muted)' }}>Email Address:</span>
                 <strong style={{ color: 'var(--text-main)' }}>{user?.email}</strong>
-              </div>
-              <div style={{ display: 'flex', borderBottom: '1px solid var(--border-color)', paddingBottom: '10px' }}>
-                <span style={{ width: '150px', color: 'var(--text-muted)' }}>Authentication ID:</span>
-                <strong style={{ color: 'var(--text-muted)', fontFamily: 'monospace' }}>{user?._id}</strong>
               </div>
               <div style={{ display: 'flex', paddingBottom: '10px' }}>
                 <span style={{ width: '150px', color: 'var(--text-muted)' }}>Session:</span>
