@@ -53,13 +53,8 @@ Requirements:
 * Layouts
 * Future scalability
 
-4. Give ONLY the folder and file structure in tree format.
 
-5. Do NOT write any code implementation.
-
-6. Do NOT explain logic unless absolutely necessary.
-
-7. Use clean naming conventions and an internship/project-level scalable architecture.
+4. Use clean naming conventions and an internship/project-level scalable architecture.
 
 The output should look like:
 
@@ -70,3 +65,5 @@ project-root/
 └── frontend/
 
 but expanded into a complete professional structure.
+
+
